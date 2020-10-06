@@ -17,3 +17,17 @@ else
 {
 
 }
+<b>4.Nested Conditonal Statement</b><br>
+A nested if in C is an if statement that is the target of another if statement. Nested if statements means an if statement inside another if statement. Yes, both C and C++ allows us to nested if statements within if statements, i.e, we can place an if statement inside another if statement<br>
+if{<br>
+   statement:<br>
+  if{<br>
+    statement:<br>
+    if{<br>
+     statement:<br>
+     }<br>
+     }<br>
+     }<br>
+     else{<br>
+         }<br>
+         
