@@ -52,4 +52,18 @@ switch(expression) {<br>
    default : /* Optional */<br>
    statement(s);<br>
    <br>
-}<br>
+}<br><br>
+<b>6.Loops</b><br>
+There may be a situation, when you need to execute a block of code several number of times. In general, statements are executed sequentially: The first statement in a function is executed first, followed by the second, and so on.<br>
+Programming languages provide various control structures that allow for more complicated execution paths.<br>
+A loop statement allows us to execute a statement or group of statements multiple times and following is the general from of a loop statement in most of the programming languages<br><br>
+<b>while loop</b><br>
+Repeats a statement or group of statements while a given condition is true. It tests the condition before executing the loop body.<br><br>
+<b>for loop</b><br>
+Execute a sequence of statements multiple times and abbreviates the code that manages the loop variable.<br><br>
+<b>do...while loop</b><br>
+Like a ‘while’ statement, except that it tests the condition at the end of the loop body.<br><br>
+
+<b>Foreach loop</b><br>
+Foreach loop is used to access elements of an array quickly without performing initialization, testing and increment/decrement. The working of foreach loops is to do something for every element rather than doing something n times.<br><br>
+
