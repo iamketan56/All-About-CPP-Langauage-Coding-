@@ -67,3 +67,7 @@ Like a ‘while’ statement, except that it tests the condition at the end of t
 <b>Foreach loop</b><br>
 Foreach loop is used to access elements of an array quickly without performing initialization, testing and increment/decrement. The working of foreach loops is to do something for every element rather than doing something n times.<br><br>
 
+<b>7.Break </b><br>
+The break statement can also be used to jump out of a loop.<br><br>
+<b>8.Continue</b></br>
+The continue statement breaks one iteration (in the loop), if a specified condition occurs, and continues with the next iteration in the loop.<br><br>
