@@ -71,3 +71,15 @@ Foreach loop is used to access elements of an array quickly without performing i
 The break statement can also be used to jump out of a loop.<br><br>
 <b>8.Continue</b></br>
 The continue statement breaks one iteration (in the loop), if a specified condition occurs, and continues with the next iteration in the loop.<br><br>
+<b>8.Pointers</b></br>
+A pointer however, is a variable that stores the memory address as its value.<br>
+A pointer variable points to a data type (like int or string) of the same type, and is created with the * operator.<br><br>
+There are three ways to declare pointer variables, but the first way is preferred:<br>
+int *a; // Preferred<br>
+int* a;<br>
+int * a;<br><br>
+<b>Dereferencing</b>
+In the example from the previous page, we used the pointer variable to get the memory address of a variable (used together with the & reference operator). However, you can also use the pointer to get the value of the variable, by using the * operator (the dereference operator):<br><br>
+<b>Note</b> that the * sign can be confusing here, as it does two different things in our code:<br>
+When used in declaration (int *a), it creates a pointer variable.<br>
+When not used in declaration, it act as a dereference operator.<br><br>
