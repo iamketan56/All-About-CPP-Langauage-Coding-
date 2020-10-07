@@ -83,3 +83,6 @@ In the example from the previous page, we used the pointer variable to get the m
 <b>Note</b> that the * sign can be confusing here, as it does two different things in our code:<br>
 When used in declaration (int *a), it creates a pointer variable.<br>
 When not used in declaration, it act as a dereference operator.<br><br>
+<b>Modify the Pointer Value</b>
+We can also change the pointer's value. But note that this will also change the value of the original variable:<br>
+<b>Refer the examples Pointer1 and Pointer for better understanding</b><br><br> 
