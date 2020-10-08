@@ -86,3 +86,8 @@ When not used in declaration, it act as a dereference operator.<br><br>
 <b>Modify the Pointer Value</b><br>
 We can also change the pointer's value. But note that this will also change the value of the original variable:<br>
 <b>Refer the examples Pointer1 and Pointer for better understanding</b><br><br> 
+
+<b>some practice example to learn more </b><br>
+<b>1.Discountcalculation.cpp</b><br>
+<b>2.leapyear.cpp</b><br>
+
