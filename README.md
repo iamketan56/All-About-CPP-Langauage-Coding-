@@ -120,7 +120,11 @@ int Table [3][5];<br><br>
 A template is a simple and yet very powerful tool in C++. The simple idea is to pass data type as a parameter so that we don’t need to write the same code for different data types. For example, if i need sort() for different data types. Rather than writing and maintaining the multiple codes, we can write one sort() and pass data type as a parameter.
 <br>
 C++ adds two new keywords to support templates: <b>‘template’ and ‘typename’<b>. The second keyword can always be replaced by keyword ‘class’.<br>
-	<b>For esay understanding check templeteclass.cpp file</b>
+	<b>For esay understanding check templeteclass.cpp file</b><br><br<
+<b>11.Terminology</b><br>
+Formal Parameter : A variable and its type as they appear in the prototype of the function or method.<br>
+Actual Parameter : The variable or expression corresponding to a formal parameter that appears in the function or method call in the calling environment.<br>
+	<b>For esay understanding check <i>argumnet2.cpp.cpp</i> file</b><br><br<
 
 
 	
