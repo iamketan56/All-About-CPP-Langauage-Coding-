@@ -121,10 +121,12 @@ A template is a simple and yet very powerful tool in C++. The simple idea is to 
 <br>
 C++ adds two new keywords to support templates: <b>‘template’ and ‘typename’<b>. The second keyword can always be replaced by keyword ‘class’.<br>
 	<b>For esay understanding check templeteclass.cpp file</b><br><br>
-<b>11.Terminology</b><br>
-Formal Parameter : A variable and its type as they appear in the prototype of the function or method.<br>
-Actual Parameter : The variable or expression corresponding to a formal parameter that appears in the function or method call in the calling environment.<br>
-	<b>For esay understanding check <i>argumnet2.cpp.cpp</i> file</b><br><br<
+	
+<b>11.Terminology</b>
+<br>
+<b>Formal Parameter<b> : A variable and its type as they appear in the prototype of the function or method.<br>
+<b>Actual Parameter</b> : The variable or expression corresponding to a formal parameter that appears in the function or method call in the calling environment.<br>
+<b>For esay understanding check <i>argumnet2.cpp.cpp</i> file</b><br><br>
 
 
 	
