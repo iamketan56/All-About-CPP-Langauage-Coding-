@@ -92,6 +92,9 @@ We can also change the pointer's value. But note that this will also change the 
 <b>2.leapyear.cpp</b><br>
 <b>3.factorial.cpp</b><br>
 
+<b>Pointer to function</b><br><br>
+In C++, like normal data pointers (int *, char *, etc), we can have pointers to functions. Following is a simple example(Pointertofunction1.cpp & Pointertofunction2.cpp ) that shows declaration and function call using function pointer.<br>br>
+
 <b>9.Array</b><br>
 An array is a collection of elements of the same type placed in contiguous memory locations that can be individually referenced by using an index to a unique identifier.<br>
 In C++, the index of the first array element is always zero. As expected, an n array must be declared prior its use. A typical declaration for an array in C++ is:<br>
