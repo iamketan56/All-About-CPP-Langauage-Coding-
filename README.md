@@ -115,7 +115,11 @@ foo[2] = 75;        // access to an element of the array. <br>
 <b>Multidimensional arrays</b> can be described as "arrays of arrays". For example, a bi-dimensional array can be imagined as a two-dimensional table made of elements, all of<br> them hold same type of elements.<br>
 The C++ syntax for this is<br>
 
-int Table [3][5];<br>
+int Table [3][5];<br><br>
+<b>Templates in C++</b><br>
+A template is a simple and yet very powerful tool in C++. The simple idea is to pass data type as a parameter so that we don’t need to write the same code for different data types. For example, if i need sort() for different data types. Rather than writing and maintaining the multiple codes, we can write one sort() and pass data type as a parameter.
+<br>
+C++ adds two new keywords to support templates: ‘template’ and ‘typename’. The second keyword can always be replaced by keyword ‘class’.
 
 
 	
