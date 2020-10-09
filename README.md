@@ -92,3 +92,27 @@ We can also change the pointer's value. But note that this will also change the 
 <b>2.leapyear.cpp</b><br>
 <b>3.factorial.cpp</b><br>
 
+<b>9.Array</b><br>
+An array is a collection of elements of the same type placed in contiguous memory locations that can be individually referenced by using an index to a unique identifier.<br>
+In C++, the index of the first array element is always zero. As expected, an n array must be declared prior its use. A typical declaration for an array in C++ is:<br>
+type name [elements];<br><br>
+<b>Different ways to INITIALIZING ARRAYS</b><br>
+int a [5] = { }; <br>
+int a [5] = { 16, 2, 77, 40, 12071 };  <br>
+int a [5] = { 10, 20, 30 };<br>
+int a [] = { 16, 2, 77, 40, 12071 };<br>
+<br>
+<b>ARRAY ACCESSING</b><br>
+The values of any of the elements in an array can be accessed just like the value of a regular variable of the same type. The syntax is:<br>
+name[index]
+<br><br>
+int foo[5];         // declaration of a new array<br>
+foo[2] = 75;        // access to an element of the array. <br> 
+
+<b>Multidimensional arrays</b> can be described as "arrays of arrays". For example, a bi-dimensional array can be imagined as a two-dimensional table made of elements, all of<br> them hold same type of elements.<br>
+The C++ syntax for this is<br>
+
+int Table [3][5];<br>
+
+
+	
