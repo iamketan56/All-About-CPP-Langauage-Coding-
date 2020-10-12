@@ -130,7 +130,7 @@ C++ adds two new keywords to support templates: <b>‘template’ and ‘typenam
 	For esay understanding check argumnet2.cpp file<br>
 
 <br>
-<b>12.Important methods of Parameter Passing<b>
+<b>12.Important methods of Parameter Passing</b>
 
 <b>Pass By Value</b> : This method uses in-mode semantics. Changes made to formal parameter do not get transmitted back to the caller. Any modifications to the formal 		parameter variable inside the called function or method affect only the separate storage location and will not be reflected in the actual parameter in the calling	 	environment<br<br>
 <b>Pass by reference(aliasing)</b>
