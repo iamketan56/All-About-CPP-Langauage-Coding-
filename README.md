@@ -139,8 +139,14 @@ This technique uses in/out-mode semantics. Changes made to formal parameter do g
 There is one more way to pass variables to functions, and that is by address. Passing an argument by address involves passing the address of the argument variable rather 	than the argument variable itself.<br><br>
 <b>13.Class and Object</b><br>
 	<b>A class in C++ is a user-defined type or data structure declared with keyword class that has data and functions</b> (also called member variables and member<br> functions) as its members whose access is governed by the three access specifiers private, protected or public. By default access to members of a C++ class is private. The<br> private members are not accessible outside the class; they can be accessed only through methods of the class. The public members form an interface to the class and are<br> accessible outside the class.<br>
-	An Object is an instance of a Class. When a class is defined, no memory is allocated but when it is instantiated (i.e. an object is created) memory is allocated<br>
-	<br>
+An Object is an instance of a Class. When a class is defined, no memory is allocated but when it is instantiated (i.e. an object is created) memory is allocated<br>
+<br>For better understanding Refer to class.cpp file <br>
+<b>14.Data-Hiding</b><br>
+In simple words, data hiding is an object-oriented programming technique of hiding internal object details i.e. data members. Data hiding guarantees restricted data access
+<br>to class members & maintain object integrity.<br>For better understanding Refer to DataHiding1.cpp file<br>
+<b>15.Getter and Setter</b><br>
+Getters and Setters allow you to effectively protect your data. This is a technique used greatly when creating classes. For each variable, a get method will return its value<br> and a set method will set the value. ... The getters and setters are usually public and the variables are made private.<br>For better understanding Refer to DataHiding2.cpp file
+	
 
 	
 	
