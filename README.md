@@ -146,7 +146,17 @@ In simple words, data hiding is an object-oriented programming technique of hidi
 <br>to class members & maintain object integrity.<br>For better understanding Refer to DataHiding1.cpp file<br>
 <b>15.Getter and Setter</b><br>
 Getters and Setters allow you to effectively protect your data. This is a technique used greatly when creating classes. For each variable, a get method will return its value<br> and a set method will set the value. ... The getters and setters are usually public and the variables are made private.<br>For better understanding Refer to DataHiding2.cpp file
-	
+<br>
+<b>16.Constructor</b><br>
+A constructor is a member function of a class which initializes objects of a class. In C++, Constructor is automatically called when object(instance of class) create. It is<br> special member function of the class.<br>
+
+<i>How constructors are different from a normal member function?</i><br>
+
+A constructor is different from normal functions in following ways:<br>
+1.Constructor has same name as the class itself<br>
+2.Constructors don’t have return type<br>
+3.A constructor is automatically called when an object is created.<br>
+If we do not specify a constructor, C++ compiler generates a default constructor for us (expects no parameters and has an empty body).<br>
 
 	
 	
