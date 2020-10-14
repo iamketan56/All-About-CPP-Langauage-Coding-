@@ -126,26 +126,27 @@ C++ adds two new keywords to support templates: <b>‘template’ and ‘typenam
 <b>11.Terminology</b>
 <br>
 	<b>Formal Parameter</b> : A variable and its type as they appear in the prototype of the function or method.<br>
-	<b>Actual Parameter</b> : The variable or expression corresponding to a formal parameter that appears in the function or method call in the calling environment.<br>
+	<b>Actual Parameter</b> : The variable or expression corresponding to a formal parameter that appears in the function or method call in the calling environment.<br><br>
 	For esay understanding check argumnet2.cpp file<br>
 
 <br>
 <b>12.Important methods of Parameter Passing</b>
+<br>
 
 <b>Pass By Value</b> : This method uses in-mode semantics. Changes made to formal parameter do not get transmitted back to the caller. Any modifications to the formal 		parameter variable inside the called function or method affect only the separate storage location and will not be reflected in the actual parameter in the calling	 	environment<br><br>
-<b>Pass by reference(aliasing)</b>
+<b>Pass by reference(aliasing)</b><br>
 This technique uses in/out-mode semantics. Changes made to formal parameter do get transmitted back to the caller through parameter passing. Any changes to the formal 		parameter are reflected in the actual parameter in the calling environment as formal parameter receives a reference (or pointer) to the actual data. This method is also 	called as <em>call by reference. This method is efficient in both time and space.<br><br>
 <b>Passing arguments by address</b><br>
 There is one more way to pass variables to functions, and that is by address. Passing an argument by address involves passing the address of the argument variable rather 	than the argument variable itself.<br><br>
 <b>13.Class and Object</b><br>
 	<b>A class in C++ is a user-defined type or data structure declared with keyword class that has data and functions</b> (also called member variables and member<br> functions) as its members whose access is governed by the three access specifiers private, protected or public. By default access to members of a C++ class is private. The<br> private members are not accessible outside the class; they can be accessed only through methods of the class. The public members form an interface to the class and are<br> accessible outside the class.<br>
-An Object is an instance of a Class. When a class is defined, no memory is allocated but when it is instantiated (i.e. an object is created) memory is allocated<br>
+An Object is an instance of a Class. When a class is defined, no memory is allocated but when it is instantiated (i.e. an object is created) memory is allocated<br><br>
 <br>For better understanding Refer to class.cpp file <br>
 <b>14.Data-Hiding</b><br>
 In simple words, data hiding is an object-oriented programming technique of hiding internal object details i.e. data members. Data hiding guarantees restricted data access
 <br>to class members & maintain object integrity.<br>For better understanding Refer to DataHiding1.cpp file<br>
 <b>15.Getter and Setter</b><br>
-Getters and Setters allow you to effectively protect your data. This is a technique used greatly when creating classes. For each variable, a get method will return its value<br> and a set method will set the value. ... The getters and setters are usually public and the variables are made private.<br>For better understanding Refer to DataHiding2.cpp file
+Getters and Setters allow you to effectively protect your data. This is a technique used greatly when creating classes. For each variable, a get method will return its value<br> and a set method will set the value. ... The getters and setters are usually public and the variables are made private.<br><br>For better understanding Refer to DataHiding2.cpp file
 <br>
 <b>16.Constructor</b><br>
 A constructor is a member function of a class which initializes objects of a class. In C++, Constructor is automatically called when object(instance of class) create. It is<br> special member function of the class.<br>
@@ -158,8 +159,8 @@ A constructor is different from normal functions in following ways:<br>
 3.A constructor is automatically called when an object is created.<br>
 If we do not specify a constructor, C++ compiler generates a default constructor for us (expects no parameters and has an empty body).<br><br>
 <b>Parameterized Constructors:</b><br>
-It is possible to pass arguments to constructors. Typically, these arguments help initialize an object when it is created. To create a parameterized constructor, simply <br>add parameters to it the way you would to any other function. When you define the constructor’s body, use the parameters to initialize the object.<br>
-<b>For better understanding refer to Parameterizedconstructor.cpp</b><br>
+It is possible to pass arguments to constructors. Typically, these arguments help initialize an object when it is created. To create a parameterized constructor, simply <br>add parameters to it the way you would to any other function. When you define the constructor’s body, use the parameters to initialize the object.<br><br>
+For better understanding refer to Parameterizedconstructor.cpp<br>
 
 	
 	
