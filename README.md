@@ -116,7 +116,7 @@ foo[2] = 75;        // access to an element of the array. <br>
 The C++ syntax for this is<br>
 
 int Table [3][5];<br><br>
-<b>10.Templates in C++</b><br>
+<b>10.Templates in C++ </b><br>
 A template is a simple and yet very powerful tool in C++. The simple idea is to pass data type as a parameter so that we don’t need to write the same code for different data types. For example, if i need sort() for different data types. Rather than writing and maintaining the multiple codes, we can write one sort() and pass data type as a parameter.
 <br>
 C++ adds two new keywords to support templates: <b>‘template’ and ‘typename’</b> The second keyword can always be replaced by keyword ‘class’.<br>
@@ -132,7 +132,7 @@ C++ adds two new keywords to support templates: <b>‘template’ and ‘typenam
 <br>
 <b>12.Important methods of Parameter Passing</b>
 
-<b>Pass By Value</b> : This method uses in-mode semantics. Changes made to formal parameter do not get transmitted back to the caller. Any modifications to the formal 		parameter variable inside the called function or method affect only the separate storage location and will not be reflected in the actual parameter in the calling	 	environment<br<br>
+<b>Pass By Value</b> : This method uses in-mode semantics. Changes made to formal parameter do not get transmitted back to the caller. Any modifications to the formal 		parameter variable inside the called function or method affect only the separate storage location and will not be reflected in the actual parameter in the calling	 	environment<br><br>
 <b>Pass by reference(aliasing)</b>
 This technique uses in/out-mode semantics. Changes made to formal parameter do get transmitted back to the caller through parameter passing. Any changes to the formal 		parameter are reflected in the actual parameter in the calling environment as formal parameter receives a reference (or pointer) to the actual data. This method is also 	called as <em>call by reference. This method is efficient in both time and space.<br><br>
 <b>Passing arguments by address</b><br>
@@ -146,7 +146,17 @@ In simple words, data hiding is an object-oriented programming technique of hidi
 <br>to class members & maintain object integrity.<br>For better understanding Refer to DataHiding1.cpp file<br>
 <b>15.Getter and Setter</b><br>
 Getters and Setters allow you to effectively protect your data. This is a technique used greatly when creating classes. For each variable, a get method will return its value<br> and a set method will set the value. ... The getters and setters are usually public and the variables are made private.<br>For better understanding Refer to DataHiding2.cpp file
-	
+<br>
+<b>16.Constructor</b><br>
+A constructor is a member function of a class which initializes objects of a class. In C++, Constructor is automatically called when object(instance of class) create. It is<br> special member function of the class.<br>
+
+<i>How constructors are different from a normal member function?</i><br>
+
+A constructor is different from normal functions in following ways:<br>
+1.Constructor has same name as the class itself<br>
+2.Constructors don’t have return type<br>
+3.A constructor is automatically called when an object is created.<br>
+If we do not specify a constructor, C++ compiler generates a default constructor for us (expects no parameters and has an empty body).<br>
 
 	
 	
