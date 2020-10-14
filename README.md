@@ -156,7 +156,10 @@ A constructor is different from normal functions in following ways:<br>
 1.Constructor has same name as the class itself<br>
 2.Constructors don’t have return type<br>
 3.A constructor is automatically called when an object is created.<br>
-If we do not specify a constructor, C++ compiler generates a default constructor for us (expects no parameters and has an empty body).<br>
+If we do not specify a constructor, C++ compiler generates a default constructor for us (expects no parameters and has an empty body).<br><br>
+<b>Parameterized Constructors:</b><br>
+It is possible to pass arguments to constructors. Typically, these arguments help initialize an object when it is created. To create a parameterized constructor, simply <br>add parameters to it the way you would to any other function. When you define the constructor’s body, use the parameters to initialize the object.<br>
+<b>For better understanding refer to Parameterizedconstructor.cpp</b><br>
 
 	
 	
