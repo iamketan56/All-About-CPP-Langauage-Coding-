@@ -125,7 +125,7 @@ C++ adds two new keywords to support templates: <b>‘template’ and ‘typenam
 	
 <b>11.Terminology</b>
 <br>
-	<b>Formal Parameter<b> : A variable and its type as they appear in the prototype of the function or method.<br>
+	<b>Formal Parameter</b> : A variable and its type as they appear in the prototype of the function or method.<br>
 	<b>Actual Parameter</b> : The variable or expression corresponding to a formal parameter that appears in the function or method call in the calling environment.<br>
 	For esay understanding check argumnet2.cpp file<br>
 
