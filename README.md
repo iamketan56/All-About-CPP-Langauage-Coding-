@@ -1,4 +1,5 @@
 # All About C++ Langauage(Coding)
+<i>
  This repo includes all the essential things with coding as well as theory in <b>README file</b>..... that everyone should know about that.
 <b>C++ is a cross-platform language that can be used to create high-performance applications. C++ was developed by Bjarne Stroustrup, as an extension to the C language. C++ gives programmers a high level of control over system resources and memory.</b><br><br>
 <b>1.ENUM</b><br>
@@ -71,7 +72,7 @@ Foreach loop is used to access elements of an array quickly without performing i
 The break statement can also be used to jump out of a loop.<br><br>
 <b>8.Continue</b></br>
 The continue statement breaks one iteration (in the loop), if a specified condition occurs, and continues with the next iteration in the loop.<br><br>
-<b>8.Pointers</b></br>
+<b>9.Pointers</b></br>
 A pointer however, is a variable that stores the memory address as its value.<br>
 A pointer variable points to a data type (like int or string) of the same type, and is created with the * operator.<br><br>
 There are three ways to declare pointer variables, but the first way is preferred:<br>
@@ -95,7 +96,7 @@ We can also change the pointer's value. But note that this will also change the 
 <b>Pointer to function</b><br><br>
 In C++, like normal data pointers (int *, char *, etc), we can have pointers to functions. Following is a simple example(Pointertofunction1.cpp & Pointertofunction2.cpp ) that shows declaration and function call using function pointer.<br><br>
 
-<b>9.Array</b><br>
+<b>10.Array</b><br>
 An array is a collection of elements of the same type placed in contiguous memory locations that can be individually referenced by using an index to a unique identifier.<br>
 In C++, the index of the first array element is always zero. As expected, an n array must be declared prior its use. A typical declaration for an array in C++ is:<br>
 type name [elements];<br><br>
@@ -116,38 +117,38 @@ foo[2] = 75;        // access to an element of the array. <br>
 The C++ syntax for this is<br>
 
 int Table [3][5];<br><br>
-<b>10.Templates in C++ </b><br>
+<b>11.Templates in C++ </b><br>
 A template is a simple and yet very powerful tool in C++. The simple idea is to pass data type as a parameter so that we don’t need to write the same code for different data types. For example, if i need sort() for different data types. Rather than writing and maintaining the multiple codes, we can write one sort() and pass data type as a parameter.
 <br>
 C++ adds two new keywords to support templates: <b>‘template’ and ‘typename’</b> The second keyword can always be replaced by keyword ‘class’.<br>
 	<b>For esay understanding check templeteclass.cpp file</b> <br>
 	<br>
 	
-<b>11.Terminology</b>
+<b>12.Terminology</b>
 <br>
 	<b>Formal Parameter</b> : A variable and its type as they appear in the prototype of the function or method.<br>
 	<b>Actual Parameter</b> : The variable or expression corresponding to a formal parameter that appears in the function or method call in the calling environment.<br><br>
 	For esay understanding check argumnet2.cpp file<br>
 
 <br>
-<b>12.Important methods of Parameter Passing</b>
+<b>13.Important methods of Parameter Passing</b>
 <br>
 <b>Pass By Value</b> : This method uses in-mode semantics. Changes made to formal parameter do not get transmitted back to the caller. Any modifications to the formal 		parameter variable inside the called function or method affect only the separate storage location and will not be reflected in the actual parameter in the calling	 	environment<br><br>
 <b>Pass by reference(aliasing)</b><br>
 This technique uses in/out-mode semantics. Changes made to formal parameter do get transmitted back to the caller through parameter passing. Any changes to the formal 		parameter are reflected in the actual parameter in the calling environment as formal parameter receives a reference (or pointer) to the actual data. This method is also 	called as <em>call by reference. This method is efficient in both time and space.<br><br>
 <b>Passing arguments by address</b><br>
 There is one more way to pass variables to functions, and that is by address. Passing an argument by address involves passing the address of the argument variable rather 	than the argument variable itself.<br><br>
-<b>13.Class and Object</b><br>
+<b>14.Class and Object</b><br>
 	<b>A class in C++ is a user-defined type or data structure declared with keyword class that has data and functions</b> (also called member variables and member<br> functions) as its members whose access is governed by the three access specifiers private, protected or public. By default access to members of a C++ class is private. The<br> private members are not accessible outside the class; they can be accessed only through methods of the class. The public members form an interface to the class and are<br> accessible outside the class.<br>
 An Object is an instance of a Class. When a class is defined, no memory is allocated but when it is instantiated (i.e. an object is created) memory is allocated<br><br>
 <br>For better understanding Refer to class.cpp file <br><br>
-<b>14.Data-Hiding</b><br>
+<b>15.Data-Hiding</b><br>
 In simple words, data hiding is an object-oriented programming technique of hiding internal object details i.e. data members. Data hiding guarantees restricted data access
 <br>to class members & maintain object integrity.<br>For better understanding Refer to DataHiding1.cpp file<br>
-<b>15.Getter and Setter</b><br>
+<b>16.Getter and Setter</b><br>
 Getters and Setters allow you to effectively protect your data. This is a technique used greatly when creating classes. For each variable, a get method will return its value<br> and a set method will set the value. ... The getters and setters are usually public and the variables are made private.<br><br>For better understanding Refer to DataHiding2.cpp file
 <br><br>
-<b>16.Constructor</b><br>
+<b>17.Constructor</b><br>
 A constructor is a member function of a class which initializes objects of a class. In C++, Constructor is automatically called when object(instance of class) create. It is<br> special member function of the class.<br>
 
 <i>How constructors are different from a normal member function?</i><br>
@@ -157,13 +158,22 @@ A constructor is different from normal functions in following ways:<br>
 2.Constructors don’t have return type<br>
 3.A constructor is automatically called when an object is created.<br>
 If we do not specify a constructor, C++ compiler generates a default constructor for us (expects no parameters and has an empty body).<br><br>
-<b>17Parameterized Constructors:</b><br>
+<b>18Parameterized Constructors:</b><br>
 It is possible to pass arguments to constructors. Typically, these arguments help initialize an object when it is created. To create a parameterized constructor, simply <br>add parameters to it the way you would to any other function. When you define the constructor’s body, use the parameters to initialize the object.<br><br>
 For better understanding refer to Parameterizedconstructor.cpp<br>
 <br>
-<b>18.Copy Constructor</b>
-a copy constructor is a special constructor for creating a new object as a copy of an existing object. Copy constructors are the standard way of copying objects in C++, as opposed to cloning, and have C++-specific nuances.<br><br>
+<b>19.Copy Constructor</b><br>
+A copy constructor is a special constructor for creating a new object as a copy of an existing object. Copy constructors are the standard way of copying objects in C++, as opposed to cloning, and have C++-specific nuances.<br><br>
 For better understanding refer to Parameterizedconstructor.cpp<br><br>
+<b>20.Scope Resolution Operator </b><br>
+The :: (scope resolution) operator is used to get hidden names due to variable scopes so that you can still use them. The scope resolution operator can be used as both unary and binary. You can use the unary scope operator if a namespace scope or global scope name is hidden by a particular declaration of an equivalent name during a block or class.<br>
+<br>
+For better understanding refer to scope_resolution.cpp<br>
+<b>21.Inline function</b><br>
+C++ inline function is powerful concept that is commonly used with classes. If a function is inline, the compiler places a copy of the code of that function at each point where the function is called at compile time.
+<br><br>
+To inline a function, place the keyword inline before the function name and define the function before any calls are made to the function. The compiler can ignore the inline qualifier in case defined function is more than a line.<br>
+For better understanding refer to InlineFunction.cpp<br><br>
 
-	
+</i>	
 	
