@@ -174,13 +174,18 @@ C++ inline function is powerful concept that is commonly used with classes. If a
 <br><br>
 To inline a function, place the keyword inline before the function name and define the function before any calls are made to the function. The compiler can ignore the inline qualifier in case defined function is more than a line.<br>
 For better understanding refer to InlineFunction.cpp<br><br>
-<b>This Pointer</b><br>
+<b>22.This Pointer</b><br>
 In C++ programming, this is a keyword that refers to the current instance of the class. There can be 3 main usage of this keyword in C++.<br>
 1.It can be used to pass current object as a parameter to another method.<br>
 2.It can be used to refer current class instance variable.<br>
 3.It can be used to declare indexers.<br>
 <br>
 For better understanding refer to ThisPointer.cpp<br><br>
+<b>23.Strcture And Class</b><br>
+In C++, a structure is the same as a class except for a few differences. The most important of them is security. A Structure is not secure and cannot hide its implementation details from the end user while a class is secure and can hide its programming and designing details<br>
+Members of a class are private by default and members of a struct are public by default.<br>
+When deriving a struct from a class/struct, default access-specifier for a base class/struct is public. And when deriving a class, default access specifier is private.<br><br>
+For better understanding refer to StructureAndClass.cpp<br><br>
 
 </i>	
 	
