@@ -174,6 +174,13 @@ C++ inline function is powerful concept that is commonly used with classes. If a
 <br><br>
 To inline a function, place the keyword inline before the function name and define the function before any calls are made to the function. The compiler can ignore the inline qualifier in case defined function is more than a line.<br>
 For better understanding refer to InlineFunction.cpp<br><br>
+<b>This Pointer</b><br>
+In C++ programming, this is a keyword that refers to the current instance of the class. There can be 3 main usage of this keyword in C++.<br>
+1.It can be used to pass current object as a parameter to another method.<br>
+2.It can be used to refer current class instance variable.<br>
+3.It can be used to declare indexers.<br>
+<br>
+For better understanding refer to ThisPointer.cpp<br><br>
 
 </i>	
 	
