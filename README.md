@@ -164,6 +164,10 @@ For better understanding refer to Parameterizedconstructor.cpp<br>
 <b>18.Copy Constructor</b>
 a copy constructor is a special constructor for creating a new object as a copy of an existing object. Copy constructors are the standard way of copying objects in C++, as opposed to cloning, and have C++-specific nuances.<br><br>
 For better understanding refer to Parameterizedconstructor.cpp<br><br>
+<b>Scope Resolution Operator </b><br>
+The :: (scope resolution) operator is used to get hidden names due to variable scopes so that you can still use them. The scope resolution operator can be used as both unary and binary. You can use the unary scope operator if a namespace scope or global scope name is hidden by a particular declaration of an equivalent name during a block or class.<br>
+<br>
+For better understanding refer to scope_resolution.cpp<br>
 
 	
 	
