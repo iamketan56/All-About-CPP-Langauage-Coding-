@@ -186,6 +186,12 @@ In C++, a structure is the same as a class except for a few differences. The mos
 Members of a class are private by default and members of a struct are public by default.<br>
 When deriving a struct from a class/struct, default access-specifier for a base class/struct is public. And when deriving a class, default access specifier is private.<br><br>
 For better understanding refer to StructureAndClass.cpp<br><br>
+<b>23.Operators Overloading</b><br>
+Operators Overloading in C++... we can redefine or overload most of the built-in operators available in C++. Thus, a programmer can use operators with user-defined types as well.<br>
+Overloaded operators are functions with special names: the keyword "operator" followed by the symbol for the operator being defined. Like any other function, an overloaded operator has a return type and a parameter list.<br>
+<br>
+For better understanding refer to OperatorOverloadin.cpp<br><br>
+
 
 </i>	
 	
