@@ -190,8 +190,9 @@ For better understanding refer to StructureAndClass.cpp<br><br>
 Operators Overloading in C++... we can redefine or overload most of the built-in operators available in C++. Thus, a programmer can use operators with user-defined types as well.<br>
 Overloaded operators are functions with special names: the keyword "operator" followed by the symbol for the operator being defined. Like any other function, an overloaded operator has a return type and a parameter list.<br>
 <br>
-For better understanding refer to OperatorOverloadin.cpp<br><br>
-
-
+For better understanding refer to OperatorOverloading.cpp<br><br>
+<b>24.Operator Overloading using a Friend function:</b>
+In this approach, the operator overloading function must precede with friend keyword, and declare a function class scope. ll the working and implementation would same as binary operator function except this function will be implemented outside of the class scope.<br<br>
+For better understanding refer to OperatorOverloadingUsingFriendFunction.cpp<br><br>
 </i>	
 	
