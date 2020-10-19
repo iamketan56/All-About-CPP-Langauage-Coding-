@@ -197,13 +197,13 @@ For better understanding refer to OperatorOverloadingUsingFriendFunction.cpp<br>
 <b>25.Inheritance</b><br>
 In object-oriented programming, inheritance is the mechanism of basing an object or class upon another object or class, retaining similar implementation. Also defined as deriving new classes from existing ones such as super class or base class and then forming them into a hierarchy of classes.<br>
 <br>
-<b>25.Access Specifers</b><br>
+<b>25.Access Specifiers</b><br>
 C++ access specifiers are used for determining or setting the boundary for the availability of class members (data members and member functions) beyond that class.<br>
 For example, the class members are grouped into sections, private protected and public. These keywords are called access specifiers which define the accessibility or visibility level of class members.<br><br>
-<b>(i).Public Access Specifer</b><br>
+<b>(i).Public Access Specifier</b><br>
 If public access specifier is used while deriving class then the public data members of the base class becomes the public member of the derived class and protected members becomes the protected in the derived class but the private members of the base class are inaccessible.<br><br>
 For better understanding refer to Public_Access_Specifier.cpp.cpp<br><br>
-<b>(ii).Protected Access Specifer</b><br>
+<b>(ii).Protected Access Specifier</b><br>
 If protected access specifier is used while deriving class then the public and protected data members of the base class becomes the protected member of the derived class and private member of the base class are inaccessible.
 <br>
 In this case, the members of the base class can be used only within the derived class as protected members except for the private members.<br><br>
