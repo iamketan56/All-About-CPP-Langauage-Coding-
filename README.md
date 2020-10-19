@@ -191,8 +191,11 @@ Operators Overloading in C++... we can redefine or overload most of the built-in
 Overloaded operators are functions with special names: the keyword "operator" followed by the symbol for the operator being defined. Like any other function, an overloaded operator has a return type and a parameter list.<br>
 <br>
 For better understanding refer to OperatorOverloading.cpp<br><br>
-<b>24.Operator Overloading using a Friend function:</b>
+<b>24.Operator Overloading using a Friend function:</b><br>
 In this approach, the operator overloading function must precede with friend keyword, and declare a function class scope. ll the working and implementation would same as binary operator function except this function will be implemented outside of the class scope.<br><br>
 For better understanding refer to OperatorOverloadingUsingFriendFunction.cpp<br><br>
+<b>25.Inheritance</b><br>
+In object-oriented programming, inheritance is the mechanism of basing an object or class upon another object or class, retaining similar implementation. Also defined as deriving new classes from existing ones such as super class or base class and then forming them into a hierarchy of classes.<br>
+<br>
 </i>	
 	
