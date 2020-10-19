@@ -200,7 +200,9 @@ In object-oriented programming, inheritance is the mechanism of basing an object
 <b>25.Access Specifers</b><br>
 C++ access specifiers are used for determining or setting the boundary for the availability of class members (data members and member functions) beyond that class.<br>
 For example, the class members are grouped into sections, private protected and public. These keywords are called access specifiers which define the accessibility or visibility level of class members.<br><br>
-
+<b>Public Access Specifer</b><br>
+If public access specifier is used while deriving class then the public data members of the base class becomes the public member of the derived class and protected members becomes the protected in the derived class but the private members of the base class are inaccessible.<br><br>
+For better understanding refer to Public_Access_Specifier.cpp.cpp<br><br>
 
 
 
