@@ -212,6 +212,6 @@ For better understanding refer to Protected_Access_Specifier.cpp.cpp<br><br>
 If private access specifier is used while creating a class, then the public and protected data members of the base class become the private member of the derived class and private member of base class remains private.<br>
 In this case, the members of the base class can be used only within the derived class and cannot be accessed through the object of derived class whereas they can be accessed by creating a function in the derived class.<br><br>
 For better understanding refer to Private_Access_Specifier.cpp.cpp<br><br>
-[]!(https://github.com/iamketan56/All-About-CPP-Langauage-Coding-/blob/main/As.png)
+![](https://github.com/iamketan56/All-About-CPP-Langauage-Coding-/blob/main/As.png)
 </i>	
 	
