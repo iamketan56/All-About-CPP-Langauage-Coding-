@@ -133,10 +133,10 @@ C++ adds two new keywords to support templates: <b>‘template’ and ‘typenam
 <br>
 <b>13.Important methods of Parameter Passing</b>
 <br>
-<b>Pass By Value</b> : This method uses in-mode semantics. Changes made to formal parameter do not get transmitted back to the caller. Any modifications to the formal 		parameter variable inside the called function or method affect only the separate storage location and will not be reflected in the actual parameter in the calling	 	environment<br><br>
-<b>Pass by reference(aliasing)</b><br>
+<b>(i).Pass By Value</b> : This method uses in-mode semantics. Changes made to formal parameter do not get transmitted back to the caller. Any modifications to the formal 		parameter variable inside the called function or method affect only the separate storage location and will not be reflected in the actual parameter in the calling	 	environment<br><br>
+<b>(ii).Pass by reference(aliasing)</b><br>
 This technique uses in/out-mode semantics. Changes made to formal parameter do get transmitted back to the caller through parameter passing. Any changes to the formal 		parameter are reflected in the actual parameter in the calling environment as formal parameter receives a reference (or pointer) to the actual data. This method is also 	called as <em>call by reference. This method is efficient in both time and space.<br><br>
-<b>Passing arguments by address</b><br>
+<b>(iii).Passing arguments by address</b><br>
 There is one more way to pass variables to functions, and that is by address. Passing an argument by address involves passing the address of the argument variable rather 	than the argument variable itself.<br><br>
 <b>14.Class and Object</b><br>
 	<b>A class in C++ is a user-defined type or data structure declared with keyword class that has data and functions</b> (also called member variables and member<br> functions) as its members whose access is governed by the three access specifiers private, protected or public. By default access to members of a C++ class is private. The<br> private members are not accessible outside the class; they can be accessed only through methods of the class. The public members form an interface to the class and are<br> accessible outside the class.<br>
@@ -208,7 +208,9 @@ If protected access specifier is used while deriving class then the public and p
 <br>
 In this case, the members of the base class can be used only within the derived class as protected members except for the private members.<br><br>
 For better understanding refer to Protected_Access_Specifier.cpp.cpp<br><br>
-
-
+<b>(iii).Private Access Specifier</b><br>
+If private access specifier is used while creating a class, then the public and protected data members of the base class become the private member of the derived class and private member of base class remains private.<br>
+In this case, the members of the base class can be used only within the derived class and cannot be accessed through the object of derived class whereas they can be accessed by creating a function in the derived class.<br><br>
+For better understanding refer to Private_Access_Specifier.cpp.cpp<br><br>
 </i>	
 	
