@@ -133,10 +133,10 @@ C++ adds two new keywords to support templates: <b>‘template’ and ‘typenam
 <br>
 <b>13.Important methods of Parameter Passing</b>
 <br>
-<b>Pass By Value</b> : This method uses in-mode semantics. Changes made to formal parameter do not get transmitted back to the caller. Any modifications to the formal 		parameter variable inside the called function or method affect only the separate storage location and will not be reflected in the actual parameter in the calling	 	environment<br><br>
-<b>Pass by reference(aliasing)</b><br>
+<b>(i).Pass By Value</b> : This method uses in-mode semantics. Changes made to formal parameter do not get transmitted back to the caller. Any modifications to the formal 		parameter variable inside the called function or method affect only the separate storage location and will not be reflected in the actual parameter in the calling	 	environment<br><br>
+<b>(ii).Pass by reference(aliasing)</b><br>
 This technique uses in/out-mode semantics. Changes made to formal parameter do get transmitted back to the caller through parameter passing. Any changes to the formal 		parameter are reflected in the actual parameter in the calling environment as formal parameter receives a reference (or pointer) to the actual data. This method is also 	called as <em>call by reference. This method is efficient in both time and space.<br><br>
-<b>Passing arguments by address</b><br>
+<b>(iii).Passing arguments by address</b><br>
 There is one more way to pass variables to functions, and that is by address. Passing an argument by address involves passing the address of the argument variable rather 	than the argument variable itself.<br><br>
 <b>14.Class and Object</b><br>
 	<b>A class in C++ is a user-defined type or data structure declared with keyword class that has data and functions</b> (also called member variables and member<br> functions) as its members whose access is governed by the three access specifiers private, protected or public. By default access to members of a C++ class is private. The<br> private members are not accessible outside the class; they can be accessed only through methods of the class. The public members form an interface to the class and are<br> accessible outside the class.<br>
@@ -191,8 +191,26 @@ Operators Overloading in C++... we can redefine or overload most of the built-in
 Overloaded operators are functions with special names: the keyword "operator" followed by the symbol for the operator being defined. Like any other function, an overloaded operator has a return type and a parameter list.<br>
 <br>
 For better understanding refer to OperatorOverloading.cpp<br><br>
-<b>24.Operator Overloading using a Friend function:</b>
+<b>24.Operator Overloading using a Friend function:</b><br>
 In this approach, the operator overloading function must precede with friend keyword, and declare a function class scope. ll the working and implementation would same as binary operator function except this function will be implemented outside of the class scope.<br><br>
 For better understanding refer to OperatorOverloadingUsingFriendFunction.cpp<br><br>
+<b>25.Inheritance</b><br>
+In object-oriented programming, inheritance is the mechanism of basing an object or class upon another object or class, retaining similar implementation. Also defined as deriving new classes from existing ones such as super class or base class and then forming them into a hierarchy of classes.<br>
+<br>
+<b>25.Access Specifiers</b><br>
+C++ access specifiers are used for determining or setting the boundary for the availability of class members (data members and member functions) beyond that class.<br>
+For example, the class members are grouped into sections, private protected and public. These keywords are called access specifiers which define the accessibility or visibility level of class members.<br><br>
+<b>(i).Public Access Specifier</b><br>
+If public access specifier is used while deriving class then the public data members of the base class becomes the public member of the derived class and protected members becomes the protected in the derived class but the private members of the base class are inaccessible.<br><br>
+For better understanding refer to Public_Access_Specifier.cpp.cpp<br><br>
+<b>(ii).Protected Access Specifier</b><br>
+If protected access specifier is used while deriving class then the public and protected data members of the base class becomes the protected member of the derived class and private member of the base class are inaccessible.
+<br>
+In this case, the members of the base class can be used only within the derived class as protected members except for the private members.<br><br>
+For better understanding refer to Protected_Access_Specifier.cpp.cpp<br><br>
+<b>(iii).Private Access Specifier</b><br>
+If private access specifier is used while creating a class, then the public and protected data members of the base class become the private member of the derived class and private member of base class remains private.<br>
+In this case, the members of the base class can be used only within the derived class and cannot be accessed through the object of derived class whereas they can be accessed by creating a function in the derived class.<br><br>
+For better understanding refer to Private_Access_Specifier.cpp.cpp<br><br>
 </i>	
 	
