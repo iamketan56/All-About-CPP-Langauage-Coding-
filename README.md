@@ -231,7 +231,7 @@ If a class is derived from another derived class then it is called multilevel in
 
 For example, if we take animals as a base class then mammals are the derived class which has features of animals and then humans are the also derived class that is derived from sub-class mammals which inherit all the features of mammals.<br><br>
 For better understanding refer to multilevel_inheritance.cpp<br>
-![](https://github.com/iamketan56/All-About-CPP-Langauage-Coding-/blob/main/multilevel.jpg)<br><br>
+![](https://github.com/iamketan56/All-About-CPP-Langauage-Coding-/blob/main/Multilevel.jpg)<br><br>
 
 
 
