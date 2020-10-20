@@ -226,7 +226,7 @@ For example, a car is a common class from which Audi, Ferrari, Maruti etc can be
 For better understanding refer to Hierarchical_inheritance.cpp<br>
 ![](https://github.com/iamketan56/All-About-CPP-Langauage-Coding-/blob/main/hierachical.jpg)
 <br><br>
-<b>29.Multilevel Inheritance</b>
+<b>29.Multilevel Inheritance</b><br>
 If a class is derived from another derived class then it is called multilevel inheritance. <br>So in C++ multilevel inheritance, a class has more than one parent class.<br>
 
 For example, if we take animals as a base class then mammals are the derived class which has features of animals and then humans are the also derived class that is derived from sub-class mammals which inherit all the features of mammals.<br><br>
