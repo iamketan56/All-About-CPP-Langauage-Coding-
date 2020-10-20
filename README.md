@@ -214,11 +214,18 @@ In this case, the members of the base class can be used only within the derived 
 For better understanding refer to Private_Access_Specifier.cpp<br><br>
 ![](https://github.com/iamketan56/All-About-CPP-Langauage-Coding-/blob/main/As.png)
 <br><br>
-<b>27.Hierarchical inheritance</b><br>
+<b>27.Single inheritance</b><br>
+If a single class is derived from one base class then it is called single inheritance.<br> In C++ single inheritance base and derived class exhibit one to one relation.<br><br>
+For better understanding refer to single_inheritance.cpp<br>
+![](https://github.com/iamketan56/All-About-CPP-Langauage-Coding-/blob/main/single.jpg)
+<br><br>
+<b>28.Hierarchical inheritance</b><br>
 When several classes are derived from common base class it is called hierarchical inheritance.<br>
 In C++ hierarchical inheritance, the feature of the base class is inherited onto more than one sub-class.<br>
 For example, a car is a common class from which Audi, Ferrari, Maruti etc can be derived.<br><br>
-For better understanding refer to Hierarchical_inheritance.cpp<br><br><br>
+For better understanding refer to Hierarchical_inheritance.cpp<br>
+![](https://github.com/iamketan56/All-About-CPP-Langauage-Coding-/blob/main/multiple.jpg)
+<br><br>
 
 </i>	
 	
