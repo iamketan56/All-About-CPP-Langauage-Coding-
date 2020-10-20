@@ -224,7 +224,7 @@ When several classes are derived from common base class it is called hierarchica
 In C++ hierarchical inheritance, the feature of the base class is inherited onto more than one sub-class.<br>
 For example, a car is a common class from which Audi, Ferrari, Maruti etc can be derived.<br><br>
 For better understanding refer to Hierarchical_inheritance.cpp<br>
-![](https://github.com/iamketan56/All-About-CPP-Langauage-Coding-/blob/main/multiple.jpg)
+![](https://github.com/iamketan56/All-About-CPP-Langauage-Coding-/blob/main/hierachical.jpg)
 <br><br>
 <b>Multilevel Inheritance</b>
 If a class is derived from another derived class then it is called multilevel inheritance. <br>So in C++ multilevel inheritance, a class has more than one parent class.<br>
