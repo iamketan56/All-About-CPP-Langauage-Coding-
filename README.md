@@ -186,18 +186,10 @@ In C++, a structure is the same as a class except for a few differences. The mos
 Members of a class are private by default and members of a struct are public by default.<br>
 When deriving a struct from a class/struct, default access-specifier for a base class/struct is public. And when deriving a class, default access specifier is private.<br><br>
 For better understanding refer to StructureAndClass.cpp<br><br>
-<b>23.Operators Overloading</b><br>
-Operators Overloading in C++... we can redefine or overload most of the built-in operators available in C++. Thus, a programmer can use operators with user-defined types as well.<br>
-Overloaded operators are functions with special names: the keyword "operator" followed by the symbol for the operator being defined. Like any other function, an overloaded operator has a return type and a parameter list.<br>
-<br>
-For better understanding refer to OperatorOverloading.cpp<br><br>
-<b>24.Operator Overloading using a Friend function:</b><br>
-In this approach, the operator overloading function must precede with friend keyword, and declare a function class scope. ll the working and implementation would same as binary operator function except this function will be implemented outside of the class scope.<br><br>
-For better understanding refer to OperatorOverloadingUsingFriendFunction.cpp<br><br>
-<b>25.Inheritance</b><br>
+<b>24.Inheritance</b><br>
 In object-oriented programming, inheritance is the mechanism of basing an object or class upon another object or class, retaining similar implementation. Also defined as deriving new classes from existing ones such as super class or base class and then forming them into a hierarchy of classes.<br>
 <br>
-<b>26.Access Specifiers</b><br>
+<b>25.Access Specifiers</b><br>
 C++ access specifiers are used for determining or setting the boundary for the availability of class members (data members and member functions) beyond that class.<br>
 For example, the class members are grouped into sections, private protected and public. These keywords are called access specifiers which define the accessibility or visibility level of class members.<br><br>
 <b>(i).Public Access Specifier</b><br>
@@ -214,32 +206,56 @@ In this case, the members of the base class can be used only within the derived 
 For better understanding refer to Private_Access_Specifier.cpp<br><br>
 ![](https://github.com/iamketan56/All-About-CPP-Langauage-Coding-/blob/main/As.png)
 <br><br>
-<b>27.Single Inheritance</b><br>
+<b>26.Single Inheritance</b><br>
 If a single class is derived from one base class then it is called single inheritance.<br> In C++ single inheritance base and derived class exhibit one to one relation.<br><br>
 For better understanding refer to single_inheritance.cpp<br>
 ![](https://github.com/iamketan56/All-About-CPP-Langauage-Coding-/blob/main/single.jpg)
 <br><br>
-<b>28.Hierarchical Inheritance</b><br>
+<b>27.Hierarchical Inheritance</b><br>
 When several classes are derived from common base class it is called hierarchical inheritance.<br>
 In C++ hierarchical inheritance, the feature of the base class is inherited onto more than one sub-class.<br>
 For example, a car is a common class from which Audi, Ferrari, Maruti etc can be derived.<br><br>
 For better understanding refer to Hierarchical_inheritance.cpp<br>
 ![](https://github.com/iamketan56/All-About-CPP-Langauage-Coding-/blob/main/hierachical.jpg)
 <br><br>
-<b>29.Multilevel Inheritance</b><br>
+<b>28.Multilevel Inheritance</b><br>
 If a class is derived from another derived class then it is called multilevel inheritance. <br>So in C++ multilevel inheritance, a class has more than one parent class.<br>
 
 For example, if we take animals as a base class then mammals are the derived class which has features of animals and then humans are the also derived class that is derived from sub-class mammals which inherit all the features of mammals.<br><br>
 For better understanding refer to multilevel_inheritance.cpp<br>
 ![](https://github.com/iamketan56/All-About-CPP-Langauage-Coding-/blob/main/Multilevel.jpg)<br><br>
-<b>30.Mutiple Inheritance</b><br>
+<b>29.Mutiple Inheritance</b><br>
 To put it in simple words, in multilevel inheritance, a class is derived from a class which is also derived from another base class. And these levels of inheritance can be extended. On the contrary, in multiple inheritance, a class is derived from two different base classes.<br><br>
 For better understanding refer to Multiple_inheritance.cpp<br>
 ![](https://github.com/iamketan56/All-About-CPP-Langauage-Coding-/blob/main/Multiple.jpg)<br><br>
-<b>31.Hybrid Inheritance</b>
+<b>30.Hybrid Inheritance</b>
 The inheritance in which the derivation of a class involves more than one form of any inheritance is called hybrid inheritance. Basically C++ hybrid inheritance is combination of two or more types of inheritance. It can also be called multi path inheritance.<br><br>
 For better understanding refer to Hybrid_inheritance.cpp<br>
 ![](https://github.com/iamketan56/All-About-CPP-Langauage-Coding-/blob/main/Hybrid.jpg)<br><br>
+<b>31.Polymorphism</b><br>
+Polymorphism is a feature of OOPs that allows the object to behave differently in different conditions. In C++ we have two types of polymorphism:<br>
+1) Compile time Polymorphism – This is also known as static (or early) binding.<br>
+Function overloading and Operator overloading are perfect example of Compile time polymorphism.<br><br>
+2) Runtime Polymorphism – This is also known as dynamic (or late) binding.<br>
+Function overriding is an example of Runtime polymorphism.<br>
+<br>
+<b>32.Function Overloading</b>
+<br>
+Function overloading is a C++ programming feature that allows us to have more than one function having same name but different parameter list.<br>
+For better understanding refer to FunctionOverloading.cpp<br><br>
+<b>33.Function Overriding</b><br>
+Function overriding is a feature that allows us to have a same function in child class which is already present in the parent class. A child class inherits the data members and member functions of parent class, but when you want to override a functionality in the child class then you can use function overriding. It is like creating a new version of an old function, in the child class.<br><br>
+For better understanding refer to FunctionOverriding.cpp<br><br>
+<b>34.Operators Overloading</b><br>
+Operators Overloading in C++... we can redefine or overload most of the built-in operators available in C++. Thus, a programmer can use operators with user-defined types as well.<br>
+Overloaded operators are functions with special names: the keyword "operator" followed by the symbol for the operator being defined. Like any other function, an overloaded operator has a return type and a parameter list.<br>
+<br>
+For better understanding refer to OperatorOverloading.cpp<br><br>
+<b>35.Operator Overloading using a Friend function:</b><br>
+In this approach, the operator overloading function must precede with friend keyword, and declare a function class scope. ll the working and implementation would same as binary operator function except this function will be implemented outside of the class scope.<br><br>
+For better understanding refer to OperatorOverloadingUsingFriendFunction.cpp<br><br>
+
+
 
 
 
