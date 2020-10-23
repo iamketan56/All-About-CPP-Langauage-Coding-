@@ -262,7 +262,11 @@ For better understanding refer to VirtualFunction.cpp and Polymorphism.cpp<br><b
 An abstract class in C++ is a class that has at least one pure virtual function (i.e., a function that has no definition). The classes inheriting the abstract class must provide a definition for the pure virtual function; otherwise, the subclass would become an abstract class itself.<br><br>
 
 For better understanding refer to VirtualFunction.cpp and Abstract_Class.cpp<br><br>
+<b>Friend Function</b>
+A friend function of a class is defined outside that class' scope but it has the right to access all private and protected members of the class. Even though the prototypes for friend functions appear in the class definition, friends are not member functions.<br>
 
+A friend can be a function, function template, or member function, or a class or class template, in which case the entire class and all of its members are friends.<br><br>
+For better understanding refer to Friend_function.cpp<br><br>
 
 
 
