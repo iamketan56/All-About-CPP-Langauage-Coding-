@@ -269,7 +269,7 @@ A friend can be a function, function template, or member function, or a class or
 For better understanding refer to Friend_function.cpp<br><br>
 <b>39.Friend Class</b><br>
 A friend class in C++ can access the private and protected members of the class in which it is declared as a friend.A significant use of a friend class is for a part of a data structure, represented by a class, to provide access to the main class representing that data structure. The friend class mechanism allows to extend the storage and access to the parts, while retaining proper encapsulation as seen by the users of the data structure.<br><br>
-For better understanding refer to VirtualFunction.cpp and Friend_class.cpp<br><br>
+For better understanding refer to  Friend_class.cpp<br><br>
 
 
 
