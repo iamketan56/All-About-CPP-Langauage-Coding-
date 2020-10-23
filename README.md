@@ -255,9 +255,13 @@ For better understanding refer to OperatorOverloading.cpp<br><br>
 In this approach, the operator overloading function must precede with friend keyword, and declare a function class scope. ll the working and implementation would same as binary operator function except this function will be implemented outside of the class scope.<br><br>
 For better understanding refer to OperatorOverloadingUsingFriendFunction.cpp<br><br>
 <b>36.Virtual Function</b><br>
-A virtual function is a member function which is declared within a base class and is re-defined(Overriden) by a derived class. When you refer to a derived class object using a pointer or a reference to the base class, you can call a virtual function for that object and execute the derived class’s version of the function.<br>
-For better understanding refer to VirtualFunction.cpp<br><br>
+A virtual function is a member function which is declared within a base class and is re-defined(Overriden) by a derived class. When you refer to a derived class object using a pointer or a reference to the base class, you can call a virtual function for that object and execute the derived class’s version of the function.<br><br>
 
+For better understanding refer to VirtualFunction.cpp and Polymorphism.cpp<br><br>
+<b>37.Abstract Class</b>
+An abstract class in C++ is a class that has at least one pure virtual function (i.e., a function that has no definition). The classes inheriting the abstract class must provide a definition for the pure virtual function; otherwise, the subclass would become an abstract class itself.<br><br>
+
+For better understanding refer to VirtualFunction.cpp and Abstract_Class.cpp<br><br>
 
 
 
