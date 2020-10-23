@@ -1,6 +1,6 @@
 # All About C++ Langauage(Coding)
 <i>
- This repo includes all the essential things with coding as well as theory in <b>README file</b>..... that everyone should know about that.
+ This repo includes all the essential things with coding as well as theory in <b>README file</b>..... that everyone should know about that.<br><br>
 <b>C++ is a cross-platform language that can be used to create high-performance applications. C++ was developed by Bjarne Stroustrup, as an extension to the C language. C++ gives programmers a high level of control over system resources and memory.</b><br><br>
 <b>1.ENUM</b><br>
 Enumeration is a user defined datatype in C/C++ language. It is used to assign names to the integral constants which makes a program easy to read and maintain. The keyword “enum” is used to declare an enumeration.
@@ -258,12 +258,18 @@ For better understanding refer to OperatorOverloadingUsingFriendFunction.cpp<br>
 A virtual function is a member function which is declared within a base class and is re-defined(Overriden) by a derived class. When you refer to a derived class object using a pointer or a reference to the base class, you can call a virtual function for that object and execute the derived class’s version of the function.<br><br>
 
 For better understanding refer to VirtualFunction.cpp and Polymorphism.cpp<br><br>
-<b>37.Abstract Class</b>
+<b>37.Abstract Class</b><br>
 An abstract class in C++ is a class that has at least one pure virtual function (i.e., a function that has no definition). The classes inheriting the abstract class must provide a definition for the pure virtual function; otherwise, the subclass would become an abstract class itself.<br><br>
 
 For better understanding refer to VirtualFunction.cpp and Abstract_Class.cpp<br><br>
+<b>38.Friend Function</b><br>
+A friend function of a class is defined outside that class' scope but it has the right to access all private and protected members of the class. Even though the prototypes for friend functions appear in the class definition, friends are not member functions.<br>
 
-
+A friend can be a function, function template, or member function, or a class or class template, in which case the entire class and all of its members are friends.<br><br>
+For better understanding refer to Friend_function.cpp<br><br>
+<b>39.Friend Class</b><br>
+A friend class in C++ can access the private and protected members of the class in which it is declared as a friend.A significant use of a friend class is for a part of a data structure, represented by a class, to provide access to the main class representing that data structure. The friend class mechanism allows to extend the storage and access to the parts, while retaining proper encapsulation as seen by the users of the data structure.<br><br>
+For better understanding refer to VirtualFunction.cpp and Friend_class.cpp<br><br>
 
 
 
