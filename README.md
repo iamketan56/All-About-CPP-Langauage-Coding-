@@ -278,5 +278,8 @@ For better understanding refer to  Static_member.cpp<br><br>
 By declaring a function member as static, you make it independent of any particular object of the class. A static member function can be called even if no objects of the class exist and the static functions are accessed using only the class name and the scope resolution operator ::.<br>
 A static member function can only access static data member, other static member functions and any other functions from outside the class.<br><br>
 For better understanding refer to  Static_member_function.cpp<br><br>
+<b>42.Nested Class</b><br>
+A nested class is a class that is declared in another class. The nested class is also a member variable of the enclosing class and has the same access rights as the other members. However, the member functions of the enclosing class have no special access to the members of a nested class.<br><br>
+
 </i>	
 	
