@@ -281,6 +281,10 @@ For better understanding refer to  Static_member_function.cpp<br><br>
 <b>42.Nested Class</b><br>
 A nested class is a class that is declared in another class. The nested class is also a member variable of the enclosing class and has the same access rights as the other members. However, the member functions of the enclosing class have no special access to the members of a nested class.<br><br>
 For better understanding refer to Nested_Class.cpp<br><br>
+<b>Anonymous Class</b><br>
+ A class with no name provided is known as an anonymous class in c++. An anonymous class is a special class with one basic property.<br>
+As there is no name given to the class there is no constructor allocated to it, though a destructor is there for deallocating the memory block.<br>
+The class cannot be used as an element of a function i.e. we cannot pass it as an argument or cannot accept values return from the function.<br><br>
 
 </i>	
 	
