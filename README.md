@@ -270,8 +270,10 @@ For better understanding refer to Friend_function.cpp<br><br>
 <b>39.Friend Class</b><br>
 A friend class in C++ can access the private and protected members of the class in which it is declared as a friend.A significant use of a friend class is for a part of a data structure, represented by a class, to provide access to the main class representing that data structure. The friend class mechanism allows to extend the storage and access to the parts, while retaining proper encapsulation as seen by the users of the data structure.<br><br>
 For better understanding refer to  Friend_class.cpp<br><br>
-
-
+<b>40.Static Members</b><br>
+We can define class members static using static keyword. When we declare a member of a class as static it means no matter how many objects of the class are created, there is only one copy of the static member.<br>
+A static member is shared by all objects of the class. All static data is initialized to zero when the first object is created, if no other initialization is present. We can't put it in the class definition but it can be initialized outside the class as done in the following example by redeclaring the static variable, using the scope resolution operator :: to identify which class it belongs to.<br><br>
+For better understanding refer to  static_member.cpp<br><br>
 
 
 
