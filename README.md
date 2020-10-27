@@ -280,6 +280,7 @@ A static member function can only access static data member, other static member
 For better understanding refer to  Static_member_function.cpp<br><br>
 <b>42.Nested Class</b><br>
 A nested class is a class that is declared in another class. The nested class is also a member variable of the enclosing class and has the same access rights as the other members. However, the member functions of the enclosing class have no special access to the members of a nested class.<br><br>
+For better understanding refer to Nested_Class.cpp<br><br>
 
 </i>	
 	
