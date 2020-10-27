@@ -273,12 +273,10 @@ For better understanding refer to  Friend_class.cpp<br><br>
 <b>40.Static Members</b><br>
 We can define class members static using static keyword. When we declare a member of a class as static it means no matter how many objects of the class are created, there is only one copy of the static member.<br>
 A static member is shared by all objects of the class. All static data is initialized to zero when the first object is created, if no other initialization is present. We can't put it in the class definition but it can be initialized outside the class as done in the following example by redeclaring the static variable, using the scope resolution operator :: to identify which class it belongs to.<br><br>
-For better understanding refer to  static_member.cpp<br><br>
+For better understanding refer to  Static_member.cpp<br><br>
 <b>41.Static Members Function</b><br>
 By declaring a function member as static, you make it independent of any particular object of the class. A static member function can be called even if no objects of the class exist and the static functions are accessed using only the class name and the scope resolution operator ::.<br>
 A static member function can only access static data member, other static member functions and any other functions from outside the class.<br><br>
-
-
-
+For better understanding refer to  Static_member_function.cpp<br><br>
 </i>	
 	
