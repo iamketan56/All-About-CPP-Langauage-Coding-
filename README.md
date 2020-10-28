@@ -296,7 +296,7 @@ catch − A program catches an exception with an exception handler at the place 
 
 try − A try block identifies a block of code for which particular exceptions will be activated. It's followed by one or more catch blocks.<br>
 Assuming a block will raise an exception, a method catches an exception using a combination of the try and catch keywords. A try/catch block is placed around the code that might generate an exception. Code within a try/catch block is referred to as protected code, and the syntax for using try/catch<br><br>
-For better understanding refer to .cpp<br><br>
+For better understanding refer to Exception Handling.cpp and <br><br>
 
 </i>	
 	
