@@ -298,7 +298,7 @@ try − A try block identifies a block of code for which particular exceptions w
 Assuming a block will raise an exception, a method catches an exception using a combination of the try and catch keywords. A try/catch block is placed around the code that might generate an exception. Code within a try/catch block is referred to as protected code, and the syntax for using try/catch<br><br>
 For better understanding refer to Exception Handling.cpp , Communicate_between_try_and_throw_with_function , All_About_Throw.cpp and All_about_Catch.cpp
 <br><br>
-<b>Namespaces in c++</b>
+<b>45.Namespaces in c++</b><br>
 A namespace is designed to overcome this difficulty and is used as additional information to differentiate similar functions, classes, variables etc. with the same name available in different libraries. Using namespace, you can define the context in which names are defined. In essence, a namespace defines a scope.<br><br>
 For better understanding refer to Namespace.cpp<br><br>
 </i>	
