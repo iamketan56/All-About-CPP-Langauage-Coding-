@@ -316,5 +316,8 @@ Destructors in the Base class can be Virtual. Whenever Upcasting is done, Destru
 Virtual destructors are useful when you might potentially delete an instance of a derived class through a pointer to base class.<br>
 NOTE: Constructors are never Virtual, only Destructors can be Virtual.<br><br>
 For better understanding refer to Virtual_Destructor.cpp<br><br>
+<b>49.Input/output streams</b><br>
+C++ input/output streams are primarily defined by iostream, a header file that is part of the C++ standard library (the name stands for Input/Output Stream). In C++ and its predecessor, the C programming language, there is no special syntax for streaming data input or output. Instead, these are combined as a library of functions. Like the cstdio header inherited from C's stdio.h, iostream provides basic input and output services for C++ programs. iostream uses the objects cin, cout, cerr, and clog for sending data to and from the standard streams input, output, error (unbuffered), and log (buffered) respectively. As part of the C++ standard library, these objects are a part of the std namespace.<br><br>
+
 </i>	
 	
