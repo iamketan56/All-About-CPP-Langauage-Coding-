@@ -301,5 +301,16 @@ For better understanding refer to Exception Handling.cpp , Communicate_between_t
 <b>45.Namespaces in c++</b><br>
 A namespace is designed to overcome this difficulty and is used as additional information to differentiate similar functions, classes, variables etc. with the same name available in different libraries. Using namespace, you can define the context in which names are defined. In essence, a namespace defines a scope.<br><br>
 For better understanding refer to Namespace.cpp<br><br>
+<b>46.Constructor and Destructor in C++</b><br>
+A class constructor is a special member function of a class that is executed whenever we create new objects of that class.<br>
+A constructor will have exact same name as the class and it does not have any return type at all, not even void. Constructors can be very useful for setting initial values for certain member variables.<br><br>
+A destructor is a special member function of a class that is executed whenever an object of it's class goes out of scope or whenever the delete expression is applied to a pointer to the object of that class.<br>
+A destructor will have exact same name as the class prefixed with a tilde (~) and it can neither return a value nor can it take any parameters. Destructor can be very useful for releasing resources before coming out of the program like closing files, releasing memories etc.<br><br>
+For better understanding refer to Destructor.cpp<br><br>
+<b>Order Of Execution</b>
+C++ constructor call order will be from top to down that is from base class to derived class .<br>
+But c++ destructor call order will be in reverse order.<br><br>
+For better understanding refer to Order_of_Execution.cpp<br><br>
+
 </i>	
 	
