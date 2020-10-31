@@ -319,6 +319,13 @@ For better understanding refer to Virtual_Destructor.cpp<br><br>
 <b>49.Input/output streams</b><br>
 C++ input/output streams are primarily defined by iostream, a header file that is part of the C++ standard library (the name stands for Input/Output Stream). In C++ and its predecessor, the C programming language, there is no special syntax for streaming data input or output. Instead, these are combined as a library of functions. Like the cstdio header inherited from C's stdio.h, iostream provides basic input and output services for C++ programs. iostream uses the objects cin, cout, cerr, and clog for sending data to and from the standard streams input, output, error (unbuffered), and log (buffered) respectively. As part of the C++ standard library, these objects are a part of the std namespace.<br><br>
 <b>50.Stream class hierarchy in c++</b><br>
-![](https://github.com/iamketan56/All-About-CPP-Langauage-Coding-/blob/main/stream-class-hierarchy.jpeg)
+![](https://github.com/iamketan56/All-About-CPP-Langauage-Coding-/blob/main/stream-class-hierarchy.jpeg)<br><br>
+<b>51.Data type</b><br>
+<b>(i).ofstream</b><br>
+This data type represents the output file stream and is used to create files and to write information to files.<br>
+ <b>(ii).ifstream</b><br>
+This data type represents the input file stream and is used to read information from files.<br>	
+<b>(iii).fstream</b><br>
+This data type represents the file stream generally, and has the capabilities of both ofstream and ifstream which means it can create files, write information to files, and read information from files.<br><br>
 </i>	
 	
