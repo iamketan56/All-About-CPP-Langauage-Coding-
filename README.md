@@ -355,6 +355,6 @@ Open a file for writing.
 v) ios::trunc
 <br>
 If the file already exists, its contents will be truncated before opening the file.<br><br>
-For better understanding refer to File_Handling.cpp ,File_Handling1.cpp and File_Handling3.cpp  <br><br>
+For better understanding refer to File_Handling.cpp ,File_Handling1.cpp and File_Handling2.cpp  <br><br>
 </i>	
 	
