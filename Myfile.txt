@@ -1,0 +1,2 @@
+I am learning file handling concept
+And using Append mode here
